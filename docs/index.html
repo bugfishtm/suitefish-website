@@ -233,7 +233,7 @@
 
     /* ---------- Layout ---------- */
     section { padding: clamp(3rem, 7vw, 5.5rem) 0; }
-    .hero { padding-top: clamp(2.4rem, 6vw, 3.6rem); }
+    .hero { padding-top: clamp(2.4rem, 6vw, 3.6rem); padding-bottom: 0px; margin-bottom: 0px; }
     .hero-grid {
       display: grid;
       grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
@@ -572,7 +572,6 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <span class="eyebrow">Suitefish ecosystem</span>
           <h1>The CMS that runs <span class="accent">more than pages.</span></h1>
           <p>Suitefish is the control layer for content, objects, modules, apps, and connected software workflows. One flexible core, an external store for delivery, and native clients that reach every device — engineered for end-users and developers alike.</p>
           <div class="row hero-actions">
@@ -582,7 +581,15 @@
             </a>
             <a class="btn btn-ghost" href="https://github.com/bugfishtm/suitefish-cms" target="_blank" rel="noopener noreferrer">
               <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"></path></svg>
-              Source on GitHub
+              GitHub
+            </a>
+            <a class="btn btn-ghost" href="https://github.com/bugfishtm/suitefish-docs" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+			  <circle cx="12" cy="12" r="9" />
+			  <path d="M9.5 9a2.5 2.5 0 1 1 4 2c-.8.5-1.5 1-1.5 2" />
+			  <path d="M12 17h.01" />
+			</svg>
+              Docs
             </a>
           </div>
           <div class="hero-meta">
@@ -627,57 +634,10 @@
       </div>
     </section>
 
-    <section aria-labelledby="start-title">
-      <div class="container">
-        <div class="section-head">
-          <span class="kicker">[ 01 ] // Start here</span>
-          <h2 id="start-title">Two ways into the ecosystem.</h2>
-          <p>Get the packaged product from the external store, or dive into the open-source core on GitHub. Everything else — the apps, the modules — extends from these.</p>
-        </div>
-
-        <div class="primary-grid">
-          <article class="feature panel tick">
-            <div class="idx">01 / STORE</div>
-            <div class="icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18l-1.5 11.2a1 1 0 0 1-1 .8H5.5a1 1 0 0 1-1-.8Z"></path><path d="M8 9V6a4 4 0 0 1 8 0v3"></path></svg>
-            </div>
-            <h3>External store <span class="host">store.suitefish.com</span></h3>
-            <p>The external delivery platform for the Suitefish ecosystem — the primary route to get the product, browse what runs on it, and put the control layer to work.</p>
-            <div class="feature-cta">
-              <div class="row">
-                <a class="btn btn-primary" href="https://store.suitefish.com" target="_blank" rel="noopener noreferrer">
-                  Open store
-                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"></path><path d="M8 7h9v9"></path></svg>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article class="feature panel tick">
-            <div class="idx">02 / SOURCE</div>
-            <div class="icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"></path></svg>
-            </div>
-            <h3>Suitefish CMS <span class="host">github.com/bugfishtm</span></h3>
-            <p>The open-source core, out in the open. Read the code, track development, and build on a foundation designed to support both end-users and developers.</p>
-            <div class="feature-cta">
-              <div class="row">
-                <a class="btn btn-ghost" href="https://github.com/bugfishtm/suitefish-cms" target="_blank" rel="noopener noreferrer">
-                  View repository
-                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"></path><path d="M8 7h9v9"></path></svg>
-                </a>
-                <a class="btn btn-ghost" href="https://bugfishtm.github.io/suitefish-docs" target="_blank" rel="noopener noreferrer">Read docs</a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
 
     <section aria-labelledby="apps-title">
       <div class="container">
         <div class="section-head">
-          <span class="kicker">[ 02 ] // Connected clients</span>
           <h2 id="apps-title">Reach Suitefish from any device.</h2>
           <p>Native apps extend the platform beyond the browser. Connect to a default instance or point at a custom Suitefish target, then install and manage software from wherever you work.</p>
         </div>
@@ -739,21 +699,6 @@
       </div>
     </section>
 
-    <section aria-labelledby="cta-title">
-      <div class="container">
-        <div class="cta panel tick">
-          <div>
-            <span class="kicker">// Ship with Suitefish</span>
-            <h2 id="cta-title">Take the control layer for a run.</h2>
-            <p>Open the external store to see the full ecosystem, or read the code on GitHub.</p>
-          </div>
-          <div class="row">
-            <a class="btn btn-primary" href="https://store.suitefish.com" target="_blank" rel="noopener noreferrer">External store</a>
-            <a class="btn btn-ghost" href="https://github.com/bugfishtm/suitefish-cms" target="_blank" rel="noopener noreferrer">Browse source</a>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">

@@ -5,7 +5,7 @@
 > [!Warning]
 > This repository is intended for developers or as a placeholder for Suitefish-related code, not for issue reporting. Please submit issues at https://github.com/bugfishtm/suitefish-cms/issues.
 
-Note: TThe official suitefish website with links to different valuable projects. Please do not clone, fork, or rely on this repository for any practical implementation.
+Note: The official suitefish website with links to different valuable projects. Please do not clone, fork, or rely on this repository for any practical implementation.
 
 ## ❓ Support Channels
 
